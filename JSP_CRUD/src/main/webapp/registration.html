@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>JSP DEMO</title>
+</head>
+<body bgcolor="lightgreen">
+     <h2 algin="center" style="size:10pt;color:red">Simple JSP Application</h2>
+     <hr color="green"><hr color="green"><br>
+     <a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;
+     <a href="registartion.html">User Registration</a>&nbsp;&nbsp;&nbsp;
+     <a href="userlogin.html">User Login</a>&nbsp;&nbsp;&nbsp;
+     <a href="adminlogin.html">Admin</a>
+     <br><br>
+     
+<h3 align="center"><u>User Registraion</u></h3><br>
+<form method="post" action="registraion1.jsp">
+  <table align=center width="400" height="350">
+     <tr>
+         <td><b>Enter Full Name</b></td>
+         <td><input type="text" name="fname" requried></td>
+         
+     </tr>
+     
+     <tr>
+         <td><b>Enter Gender</b></td>
+         <td><input type="radio" name="gender" value="male" requried>Male&nbsp;&nbsp;&nbsp;
+             <input type="radio" name="gender" value="female" requried>Female</td>
+     </tr>
+     
+     <tr>
+         <td><b>Enter User Name</b></td>
+         <td><input type="text" name="uname" requried></td>
+     </tr>
+     
+     <tr>
+         <td><b>Enter Email Address</b></td>
+         <td><input type="email" name="email" required></td>
+     </tr>
+     
+     <tr>
+        <td><b>Enter Password</b></td>
+        <td><input type="password" name="pwd" requried></td>
+      </tr>
+      
+      <tr>
+         <td><b>Enter Mobile Number</b></td>
+         <td><input type="number" name="mobile" requried></td>
+      </tr>
+      
+      <tr>
+         <td><b>Enter Address</b></td>
+         <td><textarea name="address" requried></textarea></td>
+       </tr>
+       
+       
+      <tr>
+         <td align="center"><input type="submit" value="Register"></td>
+         <td align="center"><input type="reset" value="Clear"></td>
+      </tr>      
+</table>
+</form>
+</body>
+</html>
